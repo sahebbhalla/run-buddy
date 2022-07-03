@@ -41,7 +41,7 @@ header nav ul li a{
 section{
     padding: 30px;
 }
-
+/* Home page*/
 .hero{
     padding:60px;
     background-image: url("../images/hero-bg.jpg");
@@ -49,6 +49,12 @@ section{
     background-size: cover;
     background-position: center;
     position: relative;
+}
+.hero-secondary{
+    margin: 20px;
+   
+    font-size: 20px;
+  
 }
 
 .hero-form{
