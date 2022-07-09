@@ -354,10 +354,11 @@ section{
     transform: rotate(-58deg);
   }
 
-  .checkbox-wrapper input:checked, .radio-wrapper input:checked {
+  .checkbox-wrapper input:checked, .radio-wrapper input:checked{
     opacity: 1;
   }
-  .checkbox-wrapper input:checked + label,
+  
+.checkbox-wrapper input:checked + label,
 .radio-wrapper input:checked + label {
   font-weight: bold;
 }
